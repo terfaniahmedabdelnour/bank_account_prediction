@@ -24,7 +24,6 @@ chardet==4.0.0
 charset-normalizer==2.0.11
 click==8.1.7
 comm==0.2.1
-conda==4.12.0
 conda-package-handling==1.7.3
 construct==2.10.68
 contourpy==1.0.7
