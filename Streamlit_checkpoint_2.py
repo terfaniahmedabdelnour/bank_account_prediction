@@ -32,7 +32,7 @@ from sklearn.tree import DecisionTreeClassifier
     
     
 def load_data():
-    df = pd.read_csv('/home/ahmed/Desktop/formation_gomycode/Data Science Bootcamp/Datasets/Financial_inclusion_dataset.csv')
+    df = pd.read_csv('Financial_inclusion_dataset.csv')
     for col in df.columns:
         if df[col].dtype == 'object':
             label_encoder = LabelEncoder()
