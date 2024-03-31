@@ -50,7 +50,7 @@ def train_model(df):
     return model
 
 def main():
-    st.title('Streamlit Check Point 2')
+    st.title('Bank Account Prediction')
     
     # Load data
     data_load_state = st.text('Loading data...')
